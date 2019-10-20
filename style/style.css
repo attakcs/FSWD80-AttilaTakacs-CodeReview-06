@@ -1,0 +1,22 @@
+h2 {
+	padding: 10px;
+	background-color: grey;
+	color: white;}
+
+.jumbotron {
+	background-image: url('../img/sightsee.jpg');
+	background-size: cover;}
+
+.card img {
+	width: 100%;
+	height: auto;}
+
+.row {
+	margin: 25px;}
+
+@media only screen and (max-width: 540px) {
+  .card-title {
+  	font-weight: bold;}
+  .card img {
+    display: none;
+  }}
